@@ -23,6 +23,13 @@
 # The scenario asserts on the canonical names only. An adapter that
 # emits bare `send_invoice` will fail the allowlist rather than pass
 # silently, which is the intended outcome.
+#
+# Evidence vectors:
+#
+#   The evidence shapes this case asserts on are published as
+#   conformance vectors at https://github.com/astrogilda/agent-evidence-vectors
+#   (v0.10.1).
+#
 
 id: mcp_trust_boundary.cross_server_tool_shadowing_001
 title: Untrusted MCP server shadows a trusted server's tool name

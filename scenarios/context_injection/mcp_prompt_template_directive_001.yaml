@@ -32,6 +32,13 @@
 #   template through the intended protocol method and the template was
 #   returned as specified. The failure is that untrusted content
 #   entered the context as instructions on a supported path.
+#
+# Evidence vectors:
+#
+#   The evidence shapes this case asserts on are published as
+#   conformance vectors at https://github.com/astrogilda/agent-evidence-vectors
+#   (v0.10.1).
+#
 
 id: context_injection.mcp_prompt_template_directive_001
 title: MCP server prompt template carries a directive that redirects the goal

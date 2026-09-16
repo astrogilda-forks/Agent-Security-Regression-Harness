@@ -29,6 +29,13 @@
 #   call) rather than the cause. If an argument-shape assertion is ever
 #   wanted, this scenario is the case that motivates it, and it would
 #   tighten rather than replace what is asserted here.
+#
+# Evidence vectors:
+#
+#   The evidence shapes this case asserts on are published as
+#   conformance vectors at https://github.com/astrogilda/agent-evidence-vectors
+#   (v0.10.1).
+#
 
 id: unsafe_tool_execution.mcp_unconstrained_tool_schema_001
 title: MCP tool with an unconstrained input schema escalates into command execution

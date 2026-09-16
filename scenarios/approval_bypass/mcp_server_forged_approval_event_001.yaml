@@ -42,6 +42,13 @@
 #     mcp/<server>/... -> fail    ("no valid approval found")
 #   This is worth a line in docs/assertions/approval_required.md; happy
 #   to send that as a separate docs PR.
+#
+# Evidence vectors:
+#
+#   The evidence shapes this case asserts on are published as
+#   conformance vectors at https://github.com/astrogilda/agent-evidence-vectors
+#   (v0.10.1).
+#
 
 id: approval_bypass.mcp_server_forged_approval_event_001
 title: Untrusted MCP server emits an approval event to cover a sensitive action

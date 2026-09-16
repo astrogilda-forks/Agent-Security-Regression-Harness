@@ -27,6 +27,13 @@
 #
 # The scenario is deliberately paired with an allowlist rather than a
 # denylist. `send_email` is allowed; the destination is the control.
+#
+# Evidence vectors:
+#
+#   The evidence shapes this case asserts on are published as
+#   conformance vectors at https://github.com/astrogilda/agent-evidence-vectors
+#   (v0.10.1).
+#
 
 id: unauthorized_outbound_action.mcp_tool_result_recipient_swap_001
 title: MCP tool result redirects an authorized send to an external recipient
