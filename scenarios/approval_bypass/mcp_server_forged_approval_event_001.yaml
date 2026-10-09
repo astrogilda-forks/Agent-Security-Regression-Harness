@@ -40,8 +40,8 @@
 #   fires. Checked both ways against a violating trace:
 #     bare name        -> not_run ("was not observed in tool calls")
 #     mcp/<server>/... -> fail    ("no valid approval found")
-#   This is worth a line in docs/assertions/approval_required.md; happy
-#   to send that as a separate docs PR.
+#   docs/assertions/approval_required.md states the rule, and
+#   tests/test_assertions.py pins both results.
 #
 # Evidence vectors:
 #
